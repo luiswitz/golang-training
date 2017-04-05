@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("%d - %b - %x \n", 42, 42, 42) // Prints a decimal a binary and a hexadecimal number
+	for i := 0; i < 200; i++ {
+		fmt.Printf("%d \t %b \t %x \t \n", i, i, i, i) // Prints a decimal a binary and a hexadecimal number
+	}
 }
